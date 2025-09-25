@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header class="hero" id="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Pemrograman Web</p>
+            <div class="buttons">
+                <button onclick="scrollToSection('about')">About Me</button>
+                <button onclick="scrollToSection('projects')">My Projects</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <img src="./img/foto faiz.jpg" alt="My Profile Picture" class="profile-img">
+        <p>Halo, nama saya Faiz dan saya adalah mahasiswa jurusan Teknologi Informasi.</p>
+        <p>Saya cukup mahir di Python dan C#, dan masih dalam tahap sedang belajar JavaScript, HTML, dan CSS.</p>
+        <p>Website ini dibuat tanpa framework!</p>
+        <div class="contact-buttons">
+            <a href="mailto:faizbussines86@gmail.com" target="_blank" class="contact-button">Email Me</a>
+            <a href="https://www.instagram.com/arthurrelin" target="_blank" class="contact-button">Instagram</a>
+            <a href="https://www.linkedin.com/in/faizuine" target="_blank" class="contact-button">LinkedIn</a>
+        </div>
+        <div class="animation-box">Hover me for animation!</div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>My Projects</h2>
+        <div class="project-list">
+            <div class="project">
+                <h3>Project 1: MedBoost</h3>
+                <p>Implementasi Python untuk membuat aplikasi local jual obat MedBoost.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2: SanakSodara</h3>
+                <p>Implementasi C# dalam pembuatan aplikasi local jual kopi simple menggunakan .NET.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
