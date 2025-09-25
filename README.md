@@ -6,3 +6,6 @@ Project ini dibangun menggunakan HTML, CSS dan JS tanpa framework.
 
 # Deployment
 Project ini dideploy menggunakan [Vercel](https://tugas-portofolio-pweb.vercel.app/)
+
+# Nama: Faiz Aufa Asraf
+# NIM: 242410102017
